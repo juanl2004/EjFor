@@ -13,10 +13,10 @@ public class Ejercicio4 {
 		System.out.println("Escribe un numero --> ");
 		num = sc.nextInt();
 		
-		for (int contador = 0; contador <= num; contador += 1) {
+		for (int contador = 1; contador <= num; contador += 1) {
 			
-			if (contador) {
-				System.out.println("" + contador);
+			if (contador%3 == 0) {
+				System.out.println(contador);
 			}
 		}
 
